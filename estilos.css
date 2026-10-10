@@ -1,0 +1,145 @@
+/* ===== Estilos generales ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #2d3748;
+  line-height: 1.7;
+}
+
+/* ===== Cabecera ===== */
+.cabecera {
+  background: linear-gradient(135deg, #2b6cb0, #553c9a);
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+.cabecera h1 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+nav a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 18px;
+  margin: 0 5px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  color: #2b6cb0;
+}
+
+/* ===== Contenido principal ===== */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta h2 {
+  color: #2b6cb0;
+  margin-bottom: 18px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #bee3f8;
+}
+
+/* ===== Biografía ===== */
+.bio {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.bio img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #bee3f8;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* ===== Intereses ===== */
+.lista-intereses {
+  list-style: none;
+}
+
+.lista-intereses li {
+  background-color: #ebf8ff;
+  margin-bottom: 10px;
+  padding: 12px 18px;
+  border-left: 5px solid #2b6cb0;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.lista-intereses li:hover {
+  transform: translateX(8px);
+}
+
+/* ===== Contacto ===== */
+.lista-contacto {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.lista-contacto li {
+  margin-bottom: 8px;
+}
+
+.lista-contacto a {
+  color: #553c9a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.lista-contacto a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Pie de página ===== */
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #2d3748;
+  color: #e2e8f0;
+  margin-top: 40px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .bio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cabecera h1 {
+    font-size: 1.6rem;
+  }
+}

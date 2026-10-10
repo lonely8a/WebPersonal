@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#bee3f8"/>
+      <stop offset="100%" stop-color="#d6bcfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#fondo)"/>
+
+  <!-- Monitor -->
+  <rect x="70" y="90" width="260" height="170" rx="12" fill="#2d3748"/>
+  <rect x="82" y="102" width="236" height="146" rx="6" fill="#1a202c"/>
+
+  <!-- Código en pantalla -->
+  <text x="95" y="132" font-family="Consolas, monospace" font-size="16" fill="#63b3ed">&lt;html&gt;</text>
+  <text x="110" y="156" font-family="Consolas, monospace" font-size="16" fill="#9ae6b4">&lt;body&gt;</text>
+  <text x="125" y="180" font-family="Consolas, monospace" font-size="16" fill="#faf089">Hola mundo</text>
+  <text x="110" y="204" font-family="Consolas, monospace" font-size="16" fill="#9ae6b4">&lt;/body&gt;</text>
+  <text x="95" y="228" font-family="Consolas, monospace" font-size="16" fill="#63b3ed">&lt;/html&gt;</text>
+
+  <!-- Base del monitor -->
+  <rect x="185" y="260" width="30" height="30" fill="#4a5568"/>
+  <rect x="145" y="290" width="110" height="12" rx="6" fill="#4a5568"/>
+
+  <!-- Taza de café -->
+  <rect x="285" y="310" width="45" height="40" rx="6" fill="#ffffff"/>
+  <path d="M330 320 q18 0 18 14 q0 14 -18 14" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <path d="M297 300 q5 -10 0 -18 M312 300 q5 -10 0 -18" fill="none" stroke="#718096" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Escritorio -->
+  <rect x="40" y="350" width="320" height="14" rx="7" fill="#975a16"/>
+
+  <!-- Estrellas decorativas -->
+  <circle cx="60" cy="60" r="5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="340" cy="55" r="7" fill="#ffffff" opacity="0.8"/>
+  <circle cx="360" cy="150" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="40" cy="170" r="4" fill="#ffffff" opacity="0.8"/>
+</svg>
